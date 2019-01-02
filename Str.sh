@@ -63,13 +63,13 @@ echo ""
 
     
 
-     echo $b " (01)TELKOMSEL "
+     echo $b " (01)TELKOMSEL$enda"
 
-     echo $b " (02)PHD"
+     echo $b " (02)PHD$enda"
 
-     echo $b " (03)TOKOPEDIA" 
+     echo $b " (03)TOKOPEDIA$enda" 
 
-     echo $b " (99)Keluar "
+     echo $b " (99)Keluar$green"
 
 echo $b " pilih Senjata lu cuk!  :v"
 
