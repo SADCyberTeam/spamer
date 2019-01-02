@@ -59,7 +59,7 @@ echo "\033[38;1m" " ------------------------------------------------------------
 
 echo ""
 
-     echo $b " SPAM SMS To Mantan >:'v "
+     echo "\e[1;36m" " SPAM SMS To Mantan >:'v$enda"
 
     
 
@@ -73,11 +73,7 @@ echo ""
 
 echo $b " pilih Senjata lu cuk!  :v"
 
-read -p "  ~~#  "  ezz; 
-
-#Telkomsel
-
-case $ezz in
+read ezz
 
 
 if [ $ezz = 01 ] || [ $ezz = 1]
