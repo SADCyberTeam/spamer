@@ -59,7 +59,7 @@ echo "\033[38;1m" " ------------------------------------------------------------
 
 echo ""
 
-     echo "\033[38;1m"  " SPAM SMS To Mantan >:'v"
+     echo "\033[38;1m"  " SPAM SMS To Mantan >:'v" | lolcat 
 
 echo ""
 
@@ -71,9 +71,9 @@ echo ""
 
      echo $b " (99)Keluar$green"
 
-echo $b " pilih Senjata lu cuk!  :v"
+echo $b " pilih Senjata lu cuk!  :v" | lolcat
 
-read ezz "~~# " | lolcat 
+read -p " ~~# " ezz;
 
 
 if [ $ezz = 01 ] || [ $ezz = 1]
