@@ -59,9 +59,9 @@ echo "\033[38;1m" " ------------------------------------------------------------
 
 echo ""
 
-     echo "\e[1;36m" " SPAM SMS To Mantan >:'v$enda"
+     echo "\033[38;1m"  " SPAM SMS To Mantan >:'v"
 
-    
+echo ""
 
      echo $b " (01)TELKOMSEL$enda"
 
@@ -73,7 +73,7 @@ echo ""
 
 echo $b " pilih Senjata lu cuk!  :v"
 
-read ezz
+read ezz "~~# " | lolcat 
 
 
 if [ $ezz = 01 ] || [ $ezz = 1]
@@ -86,7 +86,7 @@ toilet -f lean "TELKOMSEL"
 
 php telkomsel.php
 
-sh Spamer.sh
+sh Str.sh
 
 fi
 
@@ -101,7 +101,7 @@ toilet -f lean "PHD"
 
 php phd.php
 
-sh Spamer.sh
+sh Str.sh
 
 fi
 
@@ -115,7 +115,7 @@ toilet -f lean "TOKPED"
 
 php tokped.php
 
-sh Spamer.sh
+sh Str.sh
 
 fi
 
