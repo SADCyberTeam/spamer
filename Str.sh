@@ -69,13 +69,12 @@ echo ""
      echo $b " (04) Grab Spamer$enda"
      echo $b " (05) Spam STOQO$enda"
      echo $b " (06) Spam Caping$enda"
-
      echo $b " (99) Keluar$green"
      echo ""
 
 echo $b " pilih Senjata lu cuk!" | lolcat
  echo ""
-read -p " ~~# " ezz;
+read -p "root@user ─# " ezz;
 
 
 if [ $ezz = 01 ] || [ $ezz = 1]
@@ -153,7 +152,7 @@ sh Str.sh
 
 fi 
 
-if [ $ezz = 05 ] || [ $ezz = 5 ]
+if [ $ezz = 06 ] || [ $ezz = 6 ]
 
 then
 
