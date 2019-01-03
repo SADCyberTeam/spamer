@@ -160,7 +160,7 @@ clear
 
 toilet -f learn "Caping" | lolcat 
 
-php run.php
+php caping.php
 
 sh Str.sh
 
