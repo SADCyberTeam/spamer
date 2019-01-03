@@ -11,7 +11,7 @@
 # | - Added support for phone number with +xxxxxx format 
 # | - And another fixes
 
-import spammer_class
+import spammer_class.pyc
 spammer = spammer_class.Spammer()
 spammer.author = "TuanStar"
 try:
