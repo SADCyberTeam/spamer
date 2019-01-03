@@ -67,12 +67,13 @@ echo ""
      echo $b " (02) PHD$enda"
      echo $b " (03) TOKOPEDIA$enda" 
      echo $b " (04) Grab Spamer$enda"
-     echo $b " (05) STOQO$enda"
+     echo $b " (05) Spam STOQO$enda"
+     echo $b " (06) Spam Caping$enda"
 
      echo $b " (99)Keluar$green"
      echo ""
 
-echo $b " pilih Senjata lu cuk!  :v" | lolcat
+echo $b " pilih Senjata lu cuk!" | lolcat
  echo ""
 read -p " ~~# " ezz;
 
@@ -83,7 +84,9 @@ then
 
 clear
 
-toilet -f lean "TELKOMSEL"
+toilet "TELKOMSEL" | lolcat
+
+date | lolcat 
 
 php telkomsel.php
 
@@ -98,7 +101,7 @@ then
 
 clear 
 
-toilet -f lean "PHD"
+toilet PHD | lolcat 
 
 php phd.php
 
@@ -112,7 +115,7 @@ then
 
 clear
 
-toilet -f lean "TOKPED"
+toilet TOKPED | lolcat
 
 php tokped.php
 
@@ -126,7 +129,9 @@ then
 
 clear 
 
-toilet -f learn "GRAB"
+toilet GRAB | lolcat
+
+chmod +x Grab.py
 
 python2 Grab.py
 
@@ -140,23 +145,39 @@ then
 
 clear 
 
-toilet -f learn "STOQO" 
+toilet STOQO | lolcat 
 
-phl sms.php
+php sms.php
 
 sh Str.sh
 
 fi 
 
+if [ $ezz = 05 ] || [ $ezz = 5 ]
+
+then
+
+clear 
+
+toilet Caping | lolcat 
+
+php caping.php
+
+sh Str.sh
+
+fi
+
 if [ $ezz = 99 ]
 
 then
 
-echo "semoga Mantan Mu senang gan :v   "
+clear 
+
+echo $b "semoga Mantan Mu senang gan :v" | lolcat 
 
 echo ""
 
-echo " THX Ferguoso :v "
+echo $b " THX Ferguoso :v " | lolcat 
 
 fi
 
