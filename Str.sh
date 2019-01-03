@@ -64,16 +64,16 @@ echo ""
 echo ""
 
      echo $b " (01) TELKOMSEL$enda"
-
      echo $b " (02) PHD$enda"
-
      echo $b " (03) TOKOPEDIA$enda" 
      echo $b " (04) Grab Spamer$enda"
+     echo $b " (05) STOQO$enda"
 
      echo $b " (99)Keluar$green"
+     echo ""
 
 echo $b " pilih Senjata lu cuk!  :v" | lolcat
-
+ echo ""
 read -p " ~~# " ezz;
 
 
@@ -129,6 +129,20 @@ clear
 toilet -f learn "GRAB"
 
 python2 Grab.py
+
+sh Str.sh
+
+fi 
+
+if [ $ezz = 05 ] || [ $ezz = 5 ]
+
+then
+
+clear 
+
+toilet -f learn "STOQO" 
+
+phl sms.php
 
 sh Str.sh
 
