@@ -1,6 +1,6 @@
  #!/bin/bash
 
-#version 0.1
+#version 0.2
 
 #ImJonedHidup:v
 #ScSpamToMantan:v
@@ -53,7 +53,7 @@ echo "\033[37;1m" " Date : Wednesday 02 - 01 - 2019 "
 
 echo "\033[36;1m" " By Tn. Star :v "
 
-echo "\033[35;1m" " #Budidayakan Spam Mantan#"
+echo "\033[35;1m" " #NoTe : Cuman Iseng - Iseng :v "
 
 echo "\033[38;1m" " ------------------------------------------------------------------"| lolcat
 
@@ -63,11 +63,12 @@ echo ""
 
 echo ""
 
-     echo $b " (01)TELKOMSEL$enda"
+     echo $b " (01) TELKOMSEL$enda"
 
-     echo $b " (02)PHD$enda"
+     echo $b " (02) PHD$enda"
 
-     echo $b " (03)TOKOPEDIA$enda" 
+     echo $b " (03) TOKOPEDIA$enda" 
+     echo $b " (04) Grab Spamer$enda"
 
      echo $b " (99)Keluar$green"
 
@@ -119,6 +120,19 @@ sh Str.sh
 
 fi
 
+if [ $ezz = 04 ] || [ $ezz = 4]
+
+then 
+
+clear 
+
+toilet -f learn "GRAB"
+
+python2 Grab.py
+
+sh Str.sh
+
+fi 
 
 if [ $ezz = 99 ]
 
