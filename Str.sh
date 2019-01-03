@@ -130,9 +130,7 @@ clear
 
 toilet -f learn "GRAB" | lolcat
 
-chmod +x Grab.py
-
-python2 Grab.py
+python2 spammer.py
 
 sh Str.sh
 
