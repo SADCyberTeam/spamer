@@ -1,6 +1,6 @@
  #!/bin/bash
 
-#version 0.2
+#version 1.1
 
 #ImJonedHidup:v
 #ScSpamToMantan:v
@@ -70,7 +70,7 @@ echo ""
      echo $b " (05) Spam STOQO$enda"
      echo $b " (06) Spam Caping$enda"
 
-     echo $b " (99)Keluar$green"
+     echo $b " (99) Keluar$green"
      echo ""
 
 echo $b " pilih Senjata lu cuk!" | lolcat
@@ -84,7 +84,7 @@ then
 
 clear
 
-toilet "TELKOMSEL" | lolcat
+toilet -f learn "Telkom" | lolcat
 
 date | lolcat 
 
@@ -115,7 +115,7 @@ then
 
 clear
 
-toilet TOKPED | lolcat
+toilet -f learn "TOKPED" | lolcat
 
 php tokped.php
 
@@ -129,7 +129,7 @@ then
 
 clear 
 
-toilet GRAB | lolcat
+toilet -f learn "GRAB" | lolcat
 
 chmod +x Grab.py
 
@@ -145,7 +145,7 @@ then
 
 clear 
 
-toilet STOQO | lolcat 
+toilet -f learn "STOQO" | lolcat 
 
 php sms.php
 
@@ -159,9 +159,9 @@ then
 
 clear 
 
-toilet Caping | lolcat 
+toilet -f learn "Caping" | lolcat 
 
-php caping.php
+php run.php
 
 sh Str.sh
 
