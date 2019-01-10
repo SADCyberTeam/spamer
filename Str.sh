@@ -89,8 +89,6 @@ date | lolcat
 
 php telkomsel.php
 
-sh Str.sh
-
 fi
 
 
@@ -104,8 +102,6 @@ toilet PHD | lolcat
 
 php phd.php
 
-sh Str.sh
-
 fi
 
 if [ $ezz = 03 ] || [ $ezz = 3 ]
@@ -118,8 +114,6 @@ toilet -f learn "TOKPED" | lolcat
 
 php tokped.php
 
-sh Str.sh
-
 fi
 
 if [ $ezz = 04 ] || [ $ezz = 4]
@@ -131,8 +125,6 @@ clear
 toilet -f learn "GRAB" | lolcat
 
 python2 spammer.py
-
-sh Str.sh
 
 fi 
 
@@ -159,8 +151,6 @@ clear
 toilet -f learn "Caping" | lolcat 
 
 php caping.php
-
-sh Str.sh
 
 fi
 
