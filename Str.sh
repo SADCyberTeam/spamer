@@ -43,33 +43,33 @@ clear
 
 figlet -f bigmono9 "Spamer " | lolcat
 
-echo "\033[38;1m ------------------------------------------------------------------"| lolcat
+echo "\033[38;1m------------------------------------------------------------------"| lolcat
 
-echo "\033[31;1m " "My Contact : 0895422939836 "
+echo "\033[31;1mMy Contact : 0895422939836 "
 
-echo "\033[32;1m" " From : S.A.D Cyber Team "
+echo "\033[32;1mFrom : S.A.D Cyber Team"
 
-echo "\033[37;1m" " Date : Wednesday 02 - 01 - 2019 "
+echo "\033[37;1mDate : Wednesday 02 - 01 - 2019"
 
-echo "\033[36;1m" " By Tn. Star :v "
+echo "\033[36;1mBy Tn. Star :v "
 
-echo "\033[35;1m" " #NoTe : Cuman Iseng - Iseng :v "
+echo "\033[35;1m#NoTe : Cuman Iseng - Iseng :v "
 
 echo "\033[38;1m" " ------------------------------------------------------------------"| lolcat
 
 echo ""
 
-     echo "\033[38;1m"  " SPAM SMS To Mantan >:'v" | lolcat 
+     echo "\033[38;1mSPAM SMS To Mantan >:'v" 
 
 echo ""
 
-     echo $b " (01) TELKOMSEL$enda"
-     echo $b " (02) PHD$enda"
-     echo $b " (03) TOKOPEDIA$enda" 
-     echo $b " (04) Grab Spamer$enda"
-     echo $b " (05) Spam STOQO$enda"
-     echo $b " (06) Spam Caping$enda"
-     echo $b " (99) Keluar$green"
+     echo  "\033[30;1m(01) TELKOMSEL"
+     echo "\033[34;1m(02) PHD"
+     echo "\033[30;1m(03) TOKOPEDIA" 
+     echo "\033[30;1m(04) Grab Spamer"
+     echo "\033[30;1m(05) Spam STOQO"
+     echo "\033[30;1m(06) Spam Caping"
+     echo "\033[30;1m(99) Keluar"
      echo ""
 
 echo $b " pilih Senjata lu cuk!" | lolcat
@@ -83,9 +83,7 @@ then
 
 clear
 
-toilet -f learn "Telkom" | lolcat
-
-date | lolcat 
+figlet "Telkom" | lolcat
 
 php telkomsel.php
 
@@ -98,7 +96,7 @@ then
 
 clear 
 
-toilet PHD | lolcat 
+figlet PHD | lolcat 
 
 php phd.php
 
@@ -110,7 +108,7 @@ then
 
 clear
 
-toilet -f learn "TOKPED" | lolcat
+figlet "TOKPED" | lolcat
 
 php tokped.php
 
@@ -122,7 +120,7 @@ then
 
 clear 
 
-toilet -f learn "GRAB" | lolcat
+figlet "GRAB" | lolcat
 
 python2 spammer.py
 
@@ -134,7 +132,7 @@ then
 
 clear 
 
-toilet -f learn "STOQO" | lolcat 
+figlet "STOQO" | lolcat 
 
 php sms.php
 
@@ -148,7 +146,8 @@ then
 
 clear 
 
-toilet -f learn "Caping" | lolcat 
+figlet
+"Caping" | lolcat 
 
 php caping.php
 
@@ -165,6 +164,8 @@ echo $b "semoga Mantan Mu senang gan :v" | lolcat
 echo ""
 
 echo $b " THX Ferguoso :v " | lolcat 
+
+clear
 
 fi
 
